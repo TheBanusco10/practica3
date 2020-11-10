@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=PT+Sans&display=swap');
+
+
+body {
+
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    border-bottom: 1px solid rgb(187, 187, 187);
+
+    padding: 10px;
+
+    font-family: 'Antic Slab', serif;
+
+}
+
+#textoError {
+
+    text-align: center;
+
+    font-size: 25px;
+
+    color: red;
+
+}
+
+#main {
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+#main ul li {
+
+    padding: 10px;
+
+    list-style: none;
+
+    border-bottom: 1px solid rgb(148, 203, 255);
+
+}
+
+#main ul li button {
+
+    margin-left: 2%;
+
+}
+
+.contenedor {
+
+    text-align: left;
+
+    width: 50%;
+
+    margin: auto;
+
+}
+
+.contenedor b {
+
+    font-size: 18px;
+    
+}
+
+input[type="checkbox"] {
+
+    width: 10px;
+
+}
+
+input, select, #ConfirmaraddDisco {
+
+    display: block;
+
+    width: 50%;
+    margin-bottom: 10px;
+
+}
+
+.mal {
+
+    border: 1px solid red;
+
+}
+
+button {
+
+    border-radius: 4px;
+
+    font-size: 14px;
+
+    padding: 6px 12px;
+
+    cursor: pointer;
+
+    border: 1px solid transparent;
+
+
+}
+
+.botonEditar {
+
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+
+}
+
+.botonEditar:hover {
+
+    background-color: #f0a338;
+    border-color: #f0a338;
+
+}
+
+.botonBorrar {
+
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+
+}
+
+.botonBorrar:hover {
+
+    background-color: #c9302c;
+    border-color: #ac2925;
+
+}
+
+.botonDefecto {
+
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+
+}
+
+.botonDefecto:hover {
+
+    background-color: #255f91;
+    border-color: #255f91;
+
+}
+
+.addBoton {
+
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+
+}
+
+.addBoton:hover {
+
+    background-color: #37a037;
+    border-color: #37a037;
+
+}
+
